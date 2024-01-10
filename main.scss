@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  :root {
+  
+    font-size: 62.5%;
+  }
+  
+  body {
+  
+    font-size: 1.6rem;
+    height: 100vh;
+    font-family: "mulish",sans-serif;
+  
+    header {
+        
+        width: 100vw;
+        height: 12.8rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    .hero_menu-principal{
+  
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+  
+    .menu-principal_items {
+  
+        display: flex;
+  
+        nav {
+  
+            display: flex;
+  
+        ul {
+  
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50vw;
+  
+        li {
+  
+            color: #767676;
+            font-size: 2.2rem;
+            font-weight: 800;
+            cursor: pointer;
+  
+        }    
+            
+        .github {
+  
+            width: 14rem;
+            height: 5rem;
+            background-color: #0a1045;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 3rem;
+  
+            a{
+                text-decoration: none;
+                display: flex;
+                gap: 1.5rem;
+                color: whitesmoke;
+                text-align: center;
+            }
+        }
+      
+        
+        }    
+        }
+    }
+    
+        
+    }
+    }
+  
+  }
+  
+  
+  

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  font-family: "mulish", sans-serif;
+}
+body header {
+  width: 100vw;
+  height: 12.8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+body header .hero_menu-principal {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+body header .hero_menu-principal .menu-principal_items {
+  display: flex;
+}
+body header .hero_menu-principal .menu-principal_items nav {
+  display: flex;
+}
+body header .hero_menu-principal .menu-principal_items nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+}
+body header .hero_menu-principal .menu-principal_items nav ul li {
+  color: #767676;
+  font-size: 2.2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+body header .hero_menu-principal .menu-principal_items nav ul .github {
+  width: 14rem;
+  height: 5rem;
+  background-color: #0a1045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+body header .hero_menu-principal .menu-principal_items nav ul .github a {
+  text-decoration: none;
+  display: flex;
+  gap: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
