@@ -40,7 +40,3 @@ O Frontend Fusion se destaca por:
 Seja parte do Frontend Fusion e aprimore suas habilidades enquanto contribui para um projeto dinâmico e real!
 
 
-
-
-//Participantes: Ricardo Pereira
-
