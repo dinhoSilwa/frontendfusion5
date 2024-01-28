@@ -13,7 +13,8 @@ body {
   height: 100vh;
   font-family: "mulish", sans-serif;
 }
-body header {
+
+header {
   width: 100vw;
   height: 12.8rem;
   flex-direction: column;
@@ -21,31 +22,31 @@ body header {
   justify-content: center;
   display: flex;
 }
-body header .hero_menu-principal {
+header .hero_menu-principal {
   display: flex;
   width: 100vw;
   justify-content: space-between;
 }
-body header .hero_menu-principal .menu-principal_items {
+header .hero_menu-principal .menu-principal_items {
   display: flex;
 }
-body header .hero_menu-principal .menu-principal_items nav {
+header .hero_menu-principal .menu-principal_items nav {
   display: flex;
 }
-body header .hero_menu-principal .menu-principal_items nav ul {
+header .hero_menu-principal .menu-principal_items nav ul {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 50vw;
 }
-body header .hero_menu-principal .menu-principal_items nav ul li {
+header .hero_menu-principal .menu-principal_items nav ul li {
   color: #767676;
   font-size: 2.2rem;
   font-weight: 800;
   cursor: pointer;
 }
-body header .hero_menu-principal .menu-principal_items nav ul .github {
+header .hero_menu-principal .menu-principal_items nav ul .github {
   width: 14rem;
   height: 5rem;
   background-color: #0a1045;
@@ -54,7 +55,7 @@ body header .hero_menu-principal .menu-principal_items nav ul .github {
   align-items: center;
   border-radius: 3rem;
 }
-body header .hero_menu-principal .menu-principal_items nav ul .github a {
+header .hero_menu-principal .menu-principal_items nav ul .github a {
   text-decoration: none;
   display: flex;
   gap: 1.5rem;
