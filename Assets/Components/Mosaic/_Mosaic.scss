@@ -16,6 +16,7 @@
 
       .mosaico_box-imgs {
         border-radius: 2rem;
+        transition: .3s;
       }
     }
 
@@ -40,6 +41,18 @@
         display: flex;
         justify-content: center;
         padding: 4rem 0 0;
+    }
+
+    .box-select{
+      transform: scale(1.05);
+      box-shadow: -25px -20px 15px -23px rgba(22, 197, 133, 1),
+          25px -20px 15px -23px rgba(255, 112, 112, 1),
+          2px 1px 15px 3px rgba(255, 215, 115, 1);
+    }
+
+    .box-noselect{
+      transform: scale(0.9);
+      filter: grayscale(1);
     }
 
 

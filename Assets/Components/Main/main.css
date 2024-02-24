@@ -81,6 +81,7 @@ header .hero_menu-principal .menu-principal_items nav ul .github a {
 }
 #Hero .hero__mosaico .mosaico_coluna .mosaico_box-imgs {
   border-radius: 2rem;
+  transition: 0.3s;
 }
 #Hero .hero__mosaico .col-one {
   display: flex;
@@ -100,6 +101,14 @@ header .hero_menu-principal .menu-principal_items nav ul .github a {
   display: flex;
   justify-content: center;
   padding: 4rem 0 0;
+}
+#Hero .hero__mosaico .box-select {
+  transform: scale(1.05);
+  box-shadow: -25px -20px 15px -23px rgb(22, 197, 133), 25px -20px 15px -23px rgb(255, 112, 112), 2px 1px 15px 3px rgb(255, 215, 115);
+}
+#Hero .hero__mosaico .box-noselect {
+  transform: scale(0.9);
+  filter: grayscale(1);
 }
 
 .hero_RigthArea {
