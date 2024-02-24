@@ -1,0 +1,29 @@
+.hero_RigthArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+
+  .title_project {
+    color: #767676;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0 0 0.9rem;
+  }
+
+  .title {
+    font-size: 6.4rem;
+    background: #121fcf;
+    background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+  }
+
+  .sub-title {
+    color: rgba(118, 118, 118, 0.8);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 2.6rem 0 0;
+  }
+}

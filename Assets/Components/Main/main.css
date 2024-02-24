@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  font-family: "mulish", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 12.8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+header .hero_menu-principal {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+header .hero_menu-principal .menu-principal_items {
+  display: flex;
+}
+header .hero_menu-principal .menu-principal_items nav {
+  display: flex;
+}
+header .hero_menu-principal .menu-principal_items nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+}
+header .hero_menu-principal .menu-principal_items nav ul li {
+  color: #767676;
+  font-size: 2.2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+header .hero_menu-principal .menu-principal_items nav ul .github {
+  width: 14rem;
+  height: 5rem;
+  background-color: #0a1045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+header .hero_menu-principal .menu-principal_items nav ul .github a {
+  text-decoration: none;
+  display: flex;
+  gap: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#Hero {
+  display: flex;
+  width: 100vw;
+  padding: 4rem;
+  justify-content: space-between;
+}
+#Hero .hero__mosaico {
+  display: flex;
+  height: 60rem;
+  gap: 2.3rem;
+}
+#Hero .hero__mosaico .mosaico_coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+#Hero .hero__mosaico .mosaico_coluna .mosaico_box-imgs {
+  border-radius: 2rem;
+}
+#Hero .hero__mosaico .col-one {
+  display: flex;
+  justify-content: center;
+}
+#Hero .hero__mosaico .col-two {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 7rem;
+}
+#Hero .hero__mosaico .col-three {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 0;
+}
+#Hero .hero__mosaico .col-four {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 0;
+}
+
+.hero_RigthArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+}
+.hero_RigthArea .title_project {
+  color: #767676;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0 0 0.9rem;
+}
+.hero_RigthArea .title {
+  font-size: 6.4rem;
+  background: #121fcf;
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.hero_RigthArea .sub-title {
+  color: rgba(118, 118, 118, 0.8);
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 2.6rem 0 0;
+}
+
+.hero_flags {
+  position: absolute;
+  right: 7rem;
+  bottom: 7rem;
+}
+.hero_flags ul {
+  list-style: none;
+  display: flex;
+  gap: 6.5rem;
+}
+.hero_flags ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: default;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+}
+.hero_flags ul li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+}
+.hero_flags .flag_html,
+.hero_flags .flag_css,
+.hero_flags .flag_javascript {
+  transition: 0.3s;
+}
+.hero_flags .flag_html:hover {
+  box-shadow: 0px 0px 30px 0px rgb(255, 112, 112);
+  background-color: rgba(255, 112, 112, 0.4);
+  transform: scale(1.1);
+}
+.hero_flags .flag_css:hover {
+  box-shadow: 0px 0px 30px 0px rgb(22, 197, 134);
+  background-color: rgba(22, 197, 133, 0.363);
+  transform: scale(1.1);
+}
+.hero_flags .flag_javascript:hover {
+  box-shadow: 0px 0px 30px 0px rgb(255, 215, 115);
+  background-color: rgba(255, 215, 115, 0.384);
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */
